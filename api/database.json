@@ -4,19 +4,19 @@
       "empId": 1,
       "name": "Daniel Meza",
       "departmentId": 1,
-      "compId": 1000
+      "compId": 31
     },
     {
       "empId": 2,
       "name": "John Doe",
       "departmentId": 1,
-      "compId": 1001
+      "compId": 32
     },
     {
       "empId": 3,
       "name": "Jane Smith",
       "departmentId": 2,
-      "compId": 1002
+      "compId": 33
     }
   ],
   "departments": [
@@ -32,11 +32,15 @@
   "computers": [
     {
       "compId": 31,
-      "compBrand": "Lenovo"
+      "compBrand": "2017 Lenovo"
     },
     {
       "compId": 32,
-      "compBrand": "Dell"
+      "compBrand": "2019 Dell"
+    },
+    {
+      "compId": 33,
+      "compBrand": "2015 Acer"
     }
   ]
 }
