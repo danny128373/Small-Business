@@ -1,0 +1,42 @@
+{
+  "employees": [
+    {
+      "empId": 1,
+      "name": "Daniel Meza",
+      "departmentId": 1,
+      "compId": 1000
+    },
+    {
+      "empId": 2,
+      "name": "John Doe",
+      "departmentId": 1,
+      "compId": 1001
+    },
+    {
+      "empId": 3,
+      "name": "Jane Smith",
+      "departmentId": 2,
+      "compId": 1002
+    }
+  ],
+  "departments": [
+    {
+      "departmentId": 1,
+      "departmentName": "Mortgage Loans"
+    },
+    {
+      "departmentId": 2,
+      "departmentName": "Car Loans"
+    }
+  ],
+  "computers": [
+    {
+      "compId": 31,
+      "compBrand": "Lenovo"
+    },
+    {
+      "compId": 32,
+      "compBrand": "Dell"
+    }
+  ]
+}
