@@ -13,3 +13,12 @@ const makeEmployeeEntryComponent = (employeeEntry) => {
     </section>
   `
 }
+
+const renderToDOM = (entries) => {
+  employeeContainer.innerHTML = "";
+  for (let entry of entries) {
+    employeeContainer.innerHTML += makeEmployeeEntryComponent(entry);
+  }
+}
+
+export { renderToDOM };
